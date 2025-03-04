@@ -1,0 +1,143 @@
+body{
+    background-color: greenyellow;
+    margin: 0;
+}
+.header_brawlers{
+    display: flex;
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    max-width: 100%;
+    min-width: 100%;
+    background-color: rgb(208, 252, 143);
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.title_brawlers{
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 40px;
+    transition: all 0.65s ease 0s;
+}
+.title_brawlers_main{
+    font-size: 28px;
+    color: #000;
+    text-decoration: none;
+    font-family: "Satisfy";
+    margin-right: 40px;
+    transition: all 0.65s ease 0s;
+}
+.title_brawlers:hover{
+    color: rgb(7, 132, 242);
+}
+.title_brawlers_main:hover{
+    color: rgb(7, 132, 242);
+}
+.title_brawlers:last-child{
+    margin-right: 0px;
+}
+.three_cards_brawlers{
+    display: flex;
+    margin-top: 100px;
+}
+.three_cards_brawlers:last-child{
+    margin-bottom: 150px;
+}
+.card_brawlers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 250px;
+    min-width: 250px;
+    background-color: rgb(126, 210, 0);
+    max-height: 330px;
+    min-height: 330px;    
+    border-radius: 10px;    
+    transition: all 0.65s ease 0s;
+    border: 2px solid rgb(126, 210, 0);
+}
+.text_title_brawlers{
+    font-size: 21px;
+    color: #000;
+    font-family: "Satisfy";
+    margin: 0px;
+    margin-top: 10px;
+}
+.card_brawlers:hover{
+    background-color: rgb(169, 253, 43);
+    border: 2px solid black;
+}
+.footer_brawlers{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100%;
+    background-color: rgb(208, 252, 143);
+}
+.footer_text_brawlers{
+    font-size: 30px;
+    color: #000;
+    font-family: "Satisfy";
+}
+.anchor_brawlers{
+    text-decoration: none;
+}
+.download_brawlers{
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.65s ease 0s;
+}
+.download_brawlers:hover{
+    color: aqua;
+}
+.button_download_brawlers{
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    border: 0;
+    transition: all 0.65s ease 0s;
+}
+.button_download_brawlers:hover{
+    background-color: #000;
+}
+@media (max-width: 980px) {
+    .card_brawlers{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (max-width: 800px) {
+    .main_brawlers{
+        margin-top: 100px;
+    }
+    .three_cards_brawlers{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .card_brawlers{
+        margin-bottom: 100px;
+    }
+
+}
+@media (max-width: 614px){
+    .section_anchor_brawlers{
+        display: flex;
+    }
+    .header_brawlers{
+        display: flex;
+        flex-direction: column;
+    }
+    .title_brawlers_main{
+        margin: 0;
+    }
+}
