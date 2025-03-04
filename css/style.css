@@ -1,6 +1,9 @@
 body{
     background-color: greenyellow;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .header_brawlers{
     display: flex;
